@@ -1,9 +1,7 @@
 # GoConnect
-TCP to HTTP to TCP brige using TLS enclryption
+TCP to HTTP to TCP bridge using TLS encryption
 
-First result via 10 Gbit network
-64 K buffer
-1 length queue
+First result via 10 Gbit network using 64K buffer, and 1 as the length of the message queue.
 
 $ iperf3 -c 127.0.0.1 -p 7001
 Connecting to host 127.0.0.1, port 7001
